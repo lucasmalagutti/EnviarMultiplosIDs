@@ -10,7 +10,7 @@
     });
 });
 
-$('#submitBtn').click(function () {
+$('#btnAssociar').click(function () {
     const selectedIds = $('#idServicosSelecionados').val().split(',').map(Number);
     console.log('IDs selecionados no submit: ', selectedIds);
 
